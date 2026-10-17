@@ -1,4 +1,4 @@
-# DirectPV TES
+# DooM Project Template
 
 <!-- This page is the home page of your documentation website. -->
 
