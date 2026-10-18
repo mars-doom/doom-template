@@ -36,7 +36,6 @@ theme:
         icon: material/brightness-7
         name: Light mode
   features:
-    - navigation.tabs
     - navigation.footer
     - navigation.top
     - search.highlight
