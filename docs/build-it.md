@@ -1,11 +1,12 @@
 # Build it yourself
 
 <!--
-This page is optional. While it has nothing but this title, it stays hidden.
-Write anything below and it appears on your site.
+Instructions for someone who wants to make their own. They don't need to be
+perfect: a list of steps with a photo of each is a gift to whoever tries this next.
+If the project is one-of-a-kind, describe how you'd approach making another
+one instead.
 
-Instructions don't need to be perfect. A list of steps with a photo of each is
-a gift to whoever tries this next. Some things worth including:
+Some things worth including:
 
 - What skills and tools someone needs, and roughly how long it takes
 - The steps in order, with a photo of each
@@ -21,3 +22,4 @@ What to do.
 !!! warning "Watch out"
     The mistake to avoid here.
 -->
+Instructions coming soon.

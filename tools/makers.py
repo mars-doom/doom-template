@@ -3,8 +3,7 @@ Dept of Makers project helpers.
 
 This file does two jobs:
   1. It's an MkDocs hook (listed under `hooks:` in mkdocs.yml). When the site builds,
-     it hides empty pages from the menu and fills in {{ parts_list }} and
-     {{ files_list }} on the Anatomy page.
+     it fills in {{ parts_list }} and {{ files_list }} on the How it works page.
   2. tools/build_pdf.py imports it so the PDF shows the same things.
 
 Makers don't need to edit this.
@@ -37,13 +36,6 @@ def strip_frontmatter(md):
 
 def strip_comments(md):
     return re.sub(r"<!--.*?-->", "", md, flags=re.S)
-
-
-def is_blank_page(md):
-    """True if a page has nothing but its title and hidden prompts."""
-    md = strip_comments(strip_frontmatter(md))
-    md = re.sub(r"^#\s.*$", "", md, flags=re.M)        # the page title
-    return not md.strip()
 
 
 # ---------------------------------------------------------------- parts
@@ -220,21 +212,6 @@ def fill_markers(md, repo_url=None, pdf=False):
 
 
 # ---------------------------------------------------------------- MkDocs hooks
-
-def on_config(config):
-    """Leave empty pages (like an unwritten Build it page) out of the menu."""
-    docs = Path(config["docs_dir"])
-    nav = config.get("nav")
-    if nav:
-        kept = []
-        for entry in nav:
-            path = list(entry.values())[0] if isinstance(entry, dict) else entry
-            f = docs / path if isinstance(path, str) else None
-            if f is None or path == "index.md" or (f.exists() and not is_blank_page(f.read_text(encoding="utf-8"))):
-                kept.append(entry)
-        config["nav"] = kept
-    return config
-
 
 def on_page_markdown(markdown, page, config, files):
     return fill_markers(markdown, repo_url=config.get("repo_url"))

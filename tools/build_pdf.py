@@ -5,7 +5,7 @@ Combine the docs into one PDF with pandoc.
 Runs automatically when you publish a GitHub release. To run it yourself you need
 pandoc and xelatex installed:   python tools/build_pdf.py [VERSION]
 
-Page order comes from `nav:` in mkdocs.yml. Empty pages are skipped.
+Page order comes from `nav:` in mkdocs.yml.
 """
 import re
 import subprocess
@@ -66,13 +66,11 @@ def main():
         if not f.exists():
             continue
         md = f.read_text(encoding="utf-8")
-        if page != "index.md" and makers.is_blank_page(md):
-            continue
         md = makers.strip_comments(makers.strip_frontmatter(md))
         md = makers.fill_markers(md, repo_url=repo_url, pdf=True)
         md = convert_admonitions(strip_icons(md))
         if page == "index.md":   # the cover already shows the project name
-            md = re.sub(r"^# .*\n", "# What it is\n", md, count=1)
+            md = re.sub(r"^# .*\n", "# Summary\n", md, count=1)
         parts.append(md)
 
     combined = BUILD / "combined.md"

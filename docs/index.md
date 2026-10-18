@@ -16,7 +16,4 @@ A few sentences is plenty. Some questions to get you going:
 Replace hero.jpg with your best photo. Upload it under Media, then
 change the file name in the line above to match.
 -->
-
-**What is this, what is it for, why its important or meaningful:**
-
-Write a few sentences about what you made and why you made it.
+Write a few sentences about what you made.

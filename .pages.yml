@@ -15,7 +15,7 @@ media:
 
 content:
   - name: index
-    label: What it is
+    label: Summary
     type: file
     path: docs/index.md
     format: code
@@ -28,10 +28,10 @@ content:
     format: code
     operations: { delete: false }
 
-  - name: anatomy
-    label: Anatomy
+  - name: how_it_works
+    label: How it works
     type: file
-    path: docs/anatomy.md
+    path: docs/how-it-works.md
     format: code
     operations: { delete: false }
 
@@ -43,7 +43,7 @@ content:
     operations: { delete: false }
 
   - name: build_it
-    label: Build it (optional)
+    label: Build it
     type: file
     path: docs/build-it.md
     format: code

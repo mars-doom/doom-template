@@ -1,9 +1,15 @@
-# Anatomy
-
-![Diagram of the project](images/anatomy-diagram.jpg)
+# How it works
 
 <!--
-Show what it's made of and how the pieces fit together. Any of these work:
+Start here: in a sentence or two, how does it work? Imagine explaining it to a
+curious friend standing next to it. What goes in, what happens, what comes out?
+-->
+Explain in a sentence or two how it works.
+
+![Diagram of the project](images/diagram.jpg)
+
+<!--
+Then show what it's made of and how the pieces fit together. Any of these work:
 
 - A sketch on paper with the main parts labeled, photographed with your phone
 - A photo of the thing with labels added
@@ -21,7 +27,7 @@ Tip: name the main parts in your diagram the same way you name the sections in
 your parts list. Then the picture and the list explain each other.
 -->
 
-<!-- A sentence or two walking through the main parts, if it helps. -->
+<!-- Walk through the main parts: what each one does and how it connects to the next. -->
 
 ## Parts
 
@@ -40,5 +46,3 @@ drawings, cut files, code, data. Upload files under Media → Files.
 -->
 
 {{ files_list }}
-
-### How It Works:

@@ -4,16 +4,16 @@ This repo holds your project's website. You'll mostly write in four pages:
 
 | Page | What goes in it |
 |---|---|
-| **What it is** | A photo and a few sentences. |
+| **Summary** | A photo and a few sentences. |
 | **Log** | Where you started, entries as you go, and where it landed. |
-| **Anatomy** | A diagram, your parts list, and any design files. |
-| **Build it** | Optional instructions. Stays hidden until you write in it. |
+| **How it works** | How it works in plain words, a diagram, your parts list, and any design files. |
+| **Build it** | Instructions for someone who wants to make their own. |
 
 Each page has hidden prompts (questions) to get you going. They don't show on
 the website, so you never need to delete them.
 
 **Done looks like:** a photo and a few sentences, a log with a start and an end,
-and a diagram with a parts list. Everything else is a bonus.
+a diagram with a parts list, and the main steps to build one. Everything else is a bonus.
 
 ## One-time setup (about 10 minutes)
 
@@ -37,7 +37,7 @@ or two after every save.
 - **Parts list:** opens as a spreadsheet. Only *item* and *qty* matter; fill in
   the rest if you know it. The *section* column groups parts to match your diagram.
   In *cost_each* you can type a number or a word like `salvaged` or `free`.
-- **Files:** anything you upload under Media → Files is listed on your Anatomy
+- **Files:** anything you upload under Media → Files is listed on your How it works
   page automatically.
 - **Video:** put it on YouTube or Vimeo and paste the link.
 - **A PDF of everything:** create a release on GitHub (Releases → Draft a new

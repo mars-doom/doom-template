@@ -28,12 +28,6 @@ What happened, and what you learned.
 
 ## Where it landed
 
-
-
-
-
-### YYYY.MM.DD Title
-
 <!--
 Write this at the end of your residency.
 

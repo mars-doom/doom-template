@@ -9,16 +9,16 @@ copyright: >
   Made at the Mars College Dept of Makers ·
   Hardware CERN-OHL-W-2.0 · Docs CC BY-SA 4.0
 
-# Pages, in menu order. A page left blank is hidden automatically.
+# Pages, in menu order.
 nav:
-  - What it is: index.md
+  - Summary: index.md
   - Log: log.md
-  - Anatomy: anatomy.md
+  - How it works: how-it-works.md
   - Build it: build-it.md
 
 # ---- Shared Dept of Makers setup. No need to edit below here. ----
 hooks:
-  - tools/makers.py          # hides blank pages, builds the parts and files lists
+  - tools/makers.py          # builds the parts and files lists
 
 theme:
   name: material
