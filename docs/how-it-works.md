@@ -1,4 +1,8 @@
-# How it works
+---
+title: How It Works
+---
+
+How it works
 
 <!--
 Start here: in a sentence or two, how does it work? Imagine explaining it to a

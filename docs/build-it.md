@@ -1,3 +1,7 @@
+---
+title: Build it
+---
+
 # Build it yourself
 
 <!--
@@ -22,4 +26,9 @@ What to do.
 !!! warning "Watch out"
     The mistake to avoid here.
 -->
-Instructions coming soon.
+
+### Tools Required
+
+### Other Prep Notes
+
+### Step 1: 

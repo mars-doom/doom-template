@@ -1,5 +1,8 @@
 ---
+title: Log
 ---
+
+
 # Log
 
 ### yyyy.mm.dd Title
