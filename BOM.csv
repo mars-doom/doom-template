@@ -1,9 +1,0 @@
-section,id,item,qty,unit,spec,supplier,part_no,unit_cost_usd,notes
-SubAssembly 1,PV-1,120W PV Panels,6,ea,,,,,
-SubAssembly 1,PV-2,Panel Wiring,,,,,,,
-SubAssembly 1,PV-3,Combiner Box,,,,,,,
-SubAssembly 2,PV-4,Breaker,,,,,,,
-SubAssembly 2,PV-5,Wiring to Tank,,,,,,,
-SubAssembly 3,HW-1,Heating Element,,,,,,,
-SubAssembly 3,HW-2,PVC Tube,,,,,,,
-SubAssembly 3,HW-3,PVC Threaded Fitting,,,,,,,

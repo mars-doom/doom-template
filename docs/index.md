@@ -1,27 +1,22 @@
-# DooM Project Template
+# PROJECT NAME
 
-<!-- This page is the home page of your documentation website. -->
+![A photo of the project](images/hero.jpg)
 
-![hero](images/example.jpg)
+**Status:** Idea <!-- Pick one: Idea · Prototype · Working · Done · Retired -->
 
+**Maker:** YOUR NAME · Mars College Dept of Makers, 2027
 
-## Project Status: In Design
+<!--
+A few sentences is plenty. Some questions to get you going:
 
-See [Project Journal](journal.md) for history.
+- What is it, in plain words? Imagine telling someone at dinner.
+- Who or what is it for?
+- Why did you want to make it?
 
-- brief notes
+Replace hero.jpg with your best photo. Upload it under Media, then
+change the file name in the line above to match.
+-->
 
-## Project Summary and Goals
+**What is this, what is it for, why its important or meaningful:**
 
-
-## Specs
-
-
-## Documentation
-
-- [Design notes](design-notes.md)
-- [Bill of materials](bom.md)
-- [Assembly guide](assembly.md)
-- [Operation and maintenance](operation.md)
-- [Project Journal](journal.md)
-- 
+Write a few sentences about what you made and why you made it.

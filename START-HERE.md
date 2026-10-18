@@ -1,46 +1,46 @@
-# Start here (delete this file when you're set up)
+# Start here
 
-Welcome to the Dept of Makers project template. This takes about 20 minutes.
+This repo holds your project's website. You'll mostly write in four pages:
 
-## 1. Set up
-- [ ] Rename the repo to something short and lowercase, like `solar-shower`.
-- [ ] Go to **Settings → Pages** and set **Source** to **GitHub Actions**.
-- [ ] In `mkdocs.yml`, replace `PROJECT NAME`, `YOUR NAME`, and `REPO-NAME`.
-- [ ] Go to the repo's main page, click the gear next to **About**, and add the topics
-      `mars-college`, `dept-of-makers`, `mars-2027`, and `open-hardware`.
-      Paste your website link there too.
-
-## 2. Fill in the docs
-| File | What goes in it |
+| Page | What goes in it |
 |---|---|
-| `README.md` | The front door. One paragraph, one photo, status, links. |
-| `BOM.csv` | Every part you bought or used, grouped by subassembly in the `section` column. Give each section an ID prefix (FR-01, WS-01). Edit in any spreadsheet app, save as CSV. |
-| `docs/index.md` | Overview: what it is, why it exists, specs. |
-| `docs/assembly.md` | Step-by-step build guide with a photo per step. |
-| `docs/operation.md` | How to use and maintain it. |
-| `docs/design-notes.md` | Calcs, decisions, what you tried and dropped, lessons learned. |
-| `cad/source/` | Your native, editable design files. |
-| `cad/exports/` | STEP, DXF, PDF drawings, STL. |
-| `testing/` | Measurements, logs, test results. |
-| `CHANGELOG.md` | What changed in each version. |
+| **What it is** | A photo and a few sentences. |
+| **Log** | Where you started, entries as you go, and where it landed. |
+| **Anatomy** | A diagram, your parts list, and any design files. |
+| **Build it** | Optional instructions. Stays hidden until you write in it. |
 
-## 3. Photos: keep them small
-Run this before adding photos (needs Python; see `tools/resize_photos.py` for setup):
+Each page has hidden prompts (questions) to get you going. They don't show on
+the website, so you never need to delete them.
 
-```
-python tools/resize_photos.py path/to/your/photos
-```
+**Done looks like:** a photo and a few sentences, a log with a start and an end,
+and a diagram with a parts list. Everything else is a bonus.
 
-It shrinks them to 1600px wide and saves into `docs/images/`. Delete the placeholder
-images (`hero.jpg`, `step01-example.jpg`, ...) as you replace them. Name photos by step:
-`step04-mount-collector.jpg`.
+## One-time setup (about 10 minutes)
 
-**Rules:** no single file over 50 MB, no video in the repo (put it on YouTube or
-Vimeo and link it), and keep raw photos and big datasets on Zenodo or a drive.
-A check runs on every push and warns you about large files.
+1. **Turn on the website.** Settings → Pages → Source: **GitHub Actions**.
+2. **Fill in your details.** In `mkdocs.yml` and `README.md`, replace
+   `PROJECT NAME`, `YOUR NAME`, `ORG-NAME` and `REPO-NAME`.
+3. **Tag the repo.** On the main page, click the gear next to **About** and add
+   the topics `mars-college`, `dept-of-makers`, `mars-2027`. Paste in your
+   website link.
+4. **Open it in Pages CMS** at https://app.pagescms.org and sign in with GitHub.
+   From here on, you can do everything there.
 
-## 4. Publish
-- Every push to `main` rebuilds your website automatically.
-  It will be at `https://ORG-NAME.github.io/REPO-NAME/`.
-- When you hit a milestone, go to **Releases → Draft a new release** and tag it `v1.0`.
-  A PDF of your full documentation is generated and attached to the release automatically.
+Your site appears at `https://ORG-NAME.github.io/REPO-NAME/` and updates a minute
+or two after every save.
+
+## Good to know
+
+- **Photos:** upload under Media → Photos, then add `![what it shows](images/name.jpg)`
+  to a page. Phone photos are fine; keep each under about 5 MB, or shrink them first
+  with `tools/resize_photos.py`.
+- **Parts list:** opens as a spreadsheet. Only *item* and *qty* matter; fill in
+  the rest if you know it. The *section* column groups parts to match your diagram.
+  In *cost_each* you can type a number or a word like `salvaged` or `free`.
+- **Files:** anything you upload under Media → Files is listed on your Anatomy
+  page automatically.
+- **Video:** put it on YouTube or Vimeo and paste the link.
+- **A PDF of everything:** create a release on GitHub (Releases → Draft a new
+  release, tag `v1.0`). A PDF is attached a few minutes later.
+
+You can delete this file once you're set up.

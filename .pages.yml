@@ -1,0 +1,76 @@
+# Pages CMS: edit this project at https://app.pagescms.org without using Git.
+# Pages open in a plain Markdown editor, which saves exactly what you type.
+
+media:
+  - name: images
+    label: Photos
+    input: docs/images
+    output: images            # how pages link to them: images/name.jpg
+    rename: safe              # lowercase, no spaces
+    extensions: [jpg, jpeg, png, webp, svg, gif]
+  - name: files
+    label: Files
+    input: files
+    output: files
+
+content:
+  - name: index
+    label: What it is
+    type: file
+    path: docs/index.md
+    format: code
+    operations: { delete: false }
+
+  - name: log
+    label: Log
+    type: file
+    path: docs/log.md
+    format: code
+    operations: { delete: false }
+
+  - name: anatomy
+    label: Anatomy
+    type: file
+    path: docs/anatomy.md
+    format: code
+    operations: { delete: false }
+
+  - name: parts
+    label: Parts list
+    type: file
+    path: parts.csv
+    format: datagrid
+    operations: { delete: false }
+
+  - name: build_it
+    label: Build it (optional)
+    type: file
+    path: docs/build-it.md
+    format: code
+    operations: { delete: false }
+
+  - name: advanced
+    label: Setup
+    type: group
+    items:
+      - name: readme
+        label: Repo front page (README)
+        type: file
+        path: README.md
+        format: code
+        operations: { delete: false }
+      - name: site_config
+        label: Site settings (mkdocs.yml)
+        type: file
+        path: mkdocs.yml
+        format: code
+        operations: { delete: false }
+
+settings:
+  commit:
+    identity: user
+    templates:
+      create: "Add {path} (via Pages CMS)"
+      update: "Update {path} (via Pages CMS)"
+      delete: "Delete {path} (via Pages CMS)"
+      rename: "Rename {oldPath} to {newPath} (via Pages CMS)"
