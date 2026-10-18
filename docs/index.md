@@ -16,4 +16,12 @@ A few sentences is plenty. Some questions to get you going:
 Replace hero.jpg with your best photo. Upload it under Media, then
 change the file name in the line above to match.
 -->
+**Brief Summary:**
 Write a few sentences about what you made.
+
+## Documentation
+
+- [How It Works](how-it-works.md)
+- [Project Log](log.md)
+- [Build It Yourself](build-it.md)
+- 

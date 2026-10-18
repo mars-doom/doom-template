@@ -4,7 +4,9 @@
 Start here: in a sentence or two, how does it work? Imagine explaining it to a
 curious friend standing next to it. What goes in, what happens, what comes out?
 -->
-Explain in a sentence or two how it works.
+In as much detail as you want, explain how it works, the thinking behind the design, future things to try, things to watch out for, etc. 
+
+Include diagrams, pictures, sketches, links to videos of operations, test data, etc.
 
 ![Diagram of the project](images/diagram.jpg)
 
