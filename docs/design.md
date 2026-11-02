@@ -1,8 +1,8 @@
 ---
-title: How It Works
+title: Design
 ---
 
-How it works
+Design
 
 <!--
 Start here: in a sentence or two, how does it work? Imagine explaining it to a

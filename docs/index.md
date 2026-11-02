@@ -12,7 +12,7 @@ title: Summary
 
 ## Documentation
 
-- [How It Works](how-it-works.md)
+- [Design](design.md)
 - [Project Log](log.md)
 - [Build It Yourself](build-it.md)
 

@@ -13,7 +13,7 @@ copyright: >
 nav:
   - Summary: index.md
   - Log: log.md
-  - How it works: how-it-works.md
+  - Design: design.md
   - Build it: build-it.md
 
 # ---- Shared Dept of Makers setup. No need to edit below here. ----
